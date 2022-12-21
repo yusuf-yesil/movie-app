@@ -1,0 +1,7 @@
+<div class="list-group">
+    {% for kategori in kategoriler %}
+        <a href="{% url 'error' %}" class="list-group-item list-group-item table-active" >
+            {{ kategori.name }}
+        </a> 
+    {% endfor %}
+</div>
